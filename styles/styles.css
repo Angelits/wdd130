@@ -1,11 +1,13 @@
 main{
     max-width: 800px;
+    margin: 2px;
 }
 
 aside{
     border: 3px;
     padding: 5px;
     text-align: left;
+    background-color: paleturquoise
 }
 
 main image{
@@ -43,3 +45,5 @@ footer{
     border-top: 1px solid #000;
     text-align: center;
 }
+
+/* My FIRST CSS Comment */
