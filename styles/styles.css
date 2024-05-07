@@ -20,15 +20,15 @@ aside{
 }
 
 aside h2{
-
     position: absolute;
-    top : 47px;
-    left : 150px
+    padding : 20px;
+    text-align: left;
+    top: 5%
 }
 
 image{
-    width: 200px;
-    height: auto;
+    width: 50px;
+    height: 50px;
     float : right;
 }
 
@@ -48,7 +48,7 @@ h1{
 }
 
 main img{
-    width: 150px;
+    width: 200px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
@@ -56,7 +56,9 @@ main img{
     float : right;
 }
 
-p {padding:0;}
+p {
+    margin: 1rem;
+    padding:0;}
 
 footer{
     margin-top: 15px;
@@ -68,7 +70,7 @@ footer{
 /* Class Selectors */
 
 .box{
-    margin : 1rem;
+    margin : 2rem;
     border : 1px solid rgba(0,0,0,.1);
     padding : 1rem;
     background-color: #ddd;
