@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+:root{
+    --primary-color: #404E7C
+    --secondary-color: #71B48D
+    --accent1-color: #251F47
+    --accent2-color: #86CB92 
+
+    --heading-font: Rubik;
+    --paragraph-font: Nunito Sans
+
+    nav-background-color: #86CB92 
+    nav-link-color: #71B48D
+    nav-hover-link-color: #404E7C
+    nav-hover-background-color: #251F47
+}
+
+h1{
+    position: absolute;
+    text-align: left;
+    color: #404E7C
+}
+
+h2{
+    margin: 10px;
+    text-align: left;
+    color: #251F47
+}
+
+p{
+    padding: 10px;
+    margin: 2px;
+    width: auto;
+}
+
+article{
+    position: absolute;
+    background-color: azure;
+    opacity: 2%;
+}
+
+happy client{
+    float: right;
+
+}
+
+hero{
+    position: relative;
+
+
+}
+
+.hero img{
+    display:block;
+    width: 50%;
+    height:auto;
+    float: right;
+}
+
+sociallinks{
+    text-decoration: none;
+    position: relative;
+    height: auto;
+    width: 20%
+}
