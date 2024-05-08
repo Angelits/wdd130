@@ -35,6 +35,7 @@ p{
 
 nav{
     font-size: 1.2rem;
+    margin : 5px;
     display: flex;
 }
 
@@ -49,4 +50,8 @@ nav a:link, nav a:visited{
 
 nav a:hover {
     color: #404E7C
+}
+
+footer{
+    text-align: center;
 }
