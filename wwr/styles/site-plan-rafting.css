@@ -1,28 +1,29 @@
 body {
-    font-family: Nunito Sans;
+    font-family: var ("Nunito Sans", sans-serif);
     max-width : 950px;
     padding : 20px;
 }
 h1, h2, h3, h4, h5, h6{
 
-    font-family: Rubik;
+    font-family: ("Rubik", sans-serif);
     color: #404E7C
 }
 
-:root{
-    --primary-color: #404E7C
-    --secondary-color: #71B48D
-    --accent1-color: #251F47
-    --accent2-color: #86CB92 
+:root {
+    --primary-color: #404E7C;
+    --secondary-color: #71B48D;
+    --accent1-color: #251F47;
+    --accent2-color: #86CB92;
 
     --heading-font: Rubik;
-    --paragraph-font: Nunito Sans
+    --paragraph-font: "Nunito Sans", sans-serif;
 
-    nav-background-color: #86CB92 
-    nav-link-color: #71B48D
-    nav-hover-link-color: #404E7C
-    nav-hover-background-color: #251F47
+    --nav-background-color: #86CB92;
+    --nav-link-color: #71B48D;
+    --nav-hover-link-color: #404E7C;
+    --nav-hover-background-color: #251F47;
 }
+
 header{
 
     padding : 20px;
