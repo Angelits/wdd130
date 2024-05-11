@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 body {
     font-family: var ("Nunito Sans", sans-serif);
     max-width : 950px;
@@ -9,6 +10,7 @@ h1, h2, h3, h4, h5, h6{
     color: #404E7C
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 :root {
     --primary-color: #404E7C;
     --secondary-color: #71B48D;
