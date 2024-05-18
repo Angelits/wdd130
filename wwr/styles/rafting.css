@@ -1,62 +1,145 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
-:root{
-    --primary-color: #404E7C
-    --secondary-color: #71B48D
-    --accent1-color: #251F47
-    --accent2-color: #86CB92 
+        :root{
+            --primary-color: #404E7C;
+            --secondary-color: #71B48D;
+            --accent1-color: #251F47;
+            --accent2-color: #86CB92;
+            --heading-font: Rubik;
+            --paragraph-font: Nunito Sans;
+            nav-background-color: #86CB92;
+            nav-link-color: #71B48D;
+            nav-hover-link-color: #404E7C;
+            nav-hover-background-color: #251F47;
+        }
 
-    --heading-font: Rubik;
-    --paragraph-font: Nunito Sans
+        header h1{
+            margin-bottom: 0.5rem;
+            display: grid;
+        }
 
-    nav-background-color: #86CB92 
-    nav-link-color: #71B48D
-    nav-hover-link-color: #404E7C
-    nav-hover-background-color: #251F47
-}
+        header nav{
+            flex: 1;
+            text-align: right;
+            margin: 10px;
+            display: grid;
+        }
+        header, main, footer {
+            max-width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: var(--primary-color);
+            display: grid;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: 700;
+            padding: 0.5rem;
+        }
+        .Logo {
+            width: 100px;
+        }
 
-h1{
-    position: absolute;
-    text-align: left;
-    color: #404E7C
-}
+        .happy {
+            float: right;
+            clear: right;
+            margin: 30px;
+        }
 
-h2{
-    margin: 10px;
-    text-align: left;
-    color: #251F47
-}
+        .hero {
+            text-align: center;
+            padding: 2rem;
+        }
+      
+        .hero {
+            display: flex;
+            justify-content: center; /* Horizontally center the items */
+            align-items: center; /* Vertically center the items */
+            text-align: center; /* Center text within their respective containers */
+        }
+    
+        .left-text,
+        .right-text {
+            flex: 1; /* Equal width for left and right text */
+        }
+    
+        .center-image {
+            display: inline-block; /* Center the image within its container */
+            justify-content: center;
+        }
+        
+        .right-text {
+            text-align: right;
+        }
 
-p{
-    padding: 10px;
-    margin: 2px;
-    width: auto;
-}
+        h1 {
+            color: var(--primary-color);
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+        h2 {
+            color: var(--accent1-color);
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+            text-align:center;
+            margin: 10px;
+            margin-top: 20px;
+        }
+        p {
+            color: var(--accent2-color);
+            margin: 30px;
+            margin-top: 3rem;
+            margin-bottom: 1rem;
+        }
 
-article{
-    position: absolute;
-    background-color: azure;
-    opacity: 2%;
-}
+        .left-text{
 
-happy client{
-    float: right;
+            text-align: left;
+        }
 
-}
+        .image-gallery {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            overflow-x: auto; /* Enable horizontal scrolling */
+            padding-bottom: 20px; /* Add some space at the bottom for better visibility of horizontal scrollbar */
+        }
+    
+        .image-container {
+            flex: 0 0 auto; /* Allow containers to shrink if needed */
+            text-align: center;
+            max-width: 280px; /* Set a maximum width for each image container */
+        }
+    
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+        }
+    
+        .image-container figcaption {
+            margin-top: 10px;
+        }
 
-hero{
-    position: relative;
-}
-
-.hero img{
-    display:block;
-    width: 50%;
-    height:auto;
-    float: right;
-}
-
-sociallinks{
-    text-decoration: none;
-    position: relative;
-    height: auto;
-    width: 20%
-}
+        footer {
+            background-color: var(--primary-color);
+            padding: 1rem;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin: 10px;
+        }
+        .sociallinks {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        .sociallinks a {
+            margin-left: 1rem;
+        }

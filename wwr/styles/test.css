@@ -1,0 +1,28 @@
+.hero {
+    position: relative;
+    text-align: center;
+    padding: 2rem;
+}
+
+.hero h1 {
+    margin-bottom: 1rem;
+}
+
+.center-image {
+    margin-bottom: 1rem; /* Add some spacing between text and image */
+}
+
+.left-text, .right-text {
+    width: 45%; /* Adjust width as needed */
+    display: inline-block;
+    vertical-align: top;
+}
+
+.center-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.right-text {
+    text-align: right;
+}
