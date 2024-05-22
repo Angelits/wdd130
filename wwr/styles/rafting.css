@@ -21,16 +21,17 @@
             flex: 1;
             text-align: right;
             margin: 10px;
-            display: grid;
+            display: flex;
         }
         header, main, footer {
             max-width: 100%;
             margin: 0;
             padding: 0;
+            display: grid;
         }
         nav {
             background-color: var(--primary-color);
-            display: grid;
+            display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 1rem;
