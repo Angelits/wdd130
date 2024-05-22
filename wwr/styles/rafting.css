@@ -14,9 +14,8 @@
 
         header h1{
             margin-bottom: 0.5rem;
-            display: grid;
         }
-        
+
         header nav{
             flex: 1;
             text-align: right;
