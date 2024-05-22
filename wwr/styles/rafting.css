@@ -6,10 +6,10 @@
             --accent2-color: #86CB92;
             --heading-font: Rubik;
             --paragraph-font: Nunito Sans;
-            nav-background-color: #86CB92;
-            nav-link-color: #71B48D;
-            nav-hover-link-color: #404E7C;
-            nav-hover-background-color: #251F47;
+            --nav-background-color: #86CB92;
+            --nav-link-color: #71B48D;
+            --nav-hover-link-color: #404E7C;
+            --nav-hover-background-color: #251F47;
         }
 
         header h1{
