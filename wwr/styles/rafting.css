@@ -46,6 +46,11 @@
             width: 100px;
         }
 
+        .center-image {
+            display: inline-block; /* Center the image within its container */
+            justify-content: center;
+        }
+
         .happy {
             float: right;
             clear: right;
@@ -99,6 +104,16 @@
             margin-bottom: 1rem;
         }
 
+        .maps-container{
+            text-align: right;
+        }
+
+        .maps{
+            
+            margin: 30px;
+
+        }
+
         .left-text{
 
             text-align: left;
@@ -117,6 +132,13 @@
             text-align: center;
             max-width: 280px; /* Set a maximum width for each image container */
         }
+
+        .images-container {
+            display: flex;
+            justify-content: center; /* Center items horizontally */
+            flex-wrap: wrap; /* Allow items to wrap to the next line */
+            margin-bottom: 200px;
+        }
     
         .image-container img {
             max-width: 100%;
@@ -127,14 +149,161 @@
             margin-top: 10px;
         }
 
-        footer {
-            background-color: var(--primary-color);
-            padding: 1rem;
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-            margin: 10px;
+        .images {
+            display: inline-block;
+            flex: 0 0 calc(30% - 20px); /* Adjust width as needed */
+            text-align: center;
+            margin-left: 200px;
+            margin: 0 10px; /* Adjust spacing between images */
+            margin-bottom: 20px; /* Adjust spacing between rows */
         }
+
+        .images img {
+            margin-left: 150px;
+            max-width: 100%; /* Ensure images don't exceed container width */
+        }
+
+        input[type=radio]{
+
+            margin-right: 1rem;
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body{
+            background: #fff;
+            font-family: Barlow, Nunito, serif;
+            font-size: 1.2em;
+            color: #333
+        }
+        
+        header{
+            margin: 0 auto;
+            width: 100%;
+        }
+        
+        h1{
+            margin: 1rem;
+            font-size: 1.5em;
+            color: navy;
+            text-align: center;
+        }
+        
+        form{
+            width: 650px;
+            margin: 0 auto;
+            padding: 1rem;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 0.5rem;
+            background-color: #eee;
+            display: grid;
+        }
+        
+        fieldset{
+        
+            display: grid;
+            grid-gap: .5rem;
+            margin: 1rem;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            padding: 1rem;
+        }
+        
+        legend{
+        
+            padding: 0.5rem;
+            color: navy;
+            font-size: 1.3em;
+        }
+        
+        label, input, button, select, textarea{
+        
+            font-family: Barlow, Nunito, sans-serif;
+        }
+        
+        label{
+        
+            text-align: right;
+            padding-right: 1rem;
+        }
+        
+        input, select, textarea{
+            padding: 0.5rem;
+            font-size: 1.1rem;
+        }
+        
+        input[type="checkbox"]{
+        
+            width: 22px;
+            height: 22px;
+            vertical-align: bottom;
+        }
+        
+        button{
+        
+            margin: 1rem;
+            background-color: #251F47;
+            color: #fff;
+            border: none;
+            border-radius: .5rem;
+            padding: .75rem;
+            font-size: 1.2 rem;
+        }
+        
+        button:hover{
+            background-color: #86CB92;
+        }
+    
+        footer{
+            border-top: 1px solid #ccc;
+            margin: 1rem auto 0;
+            width: 100%;
+            text-align: center;
+            font-size: 0.8em;
+            color: #404E7C;
+        }
+    
+        .form-item{
+    
+            display:grid;
+            align-items: center;
+            margin: 0.5rem 0;
+        }
+
+        .form-item label{
+                grid-column: 1;
+        }
+
+        .options{
+                grid-column: 2;
+                display: grid;
+                grid-template-columns: 1fr;
+        }
+
+        .options input[type="radio"] {
+                display: flex;
+                float: left;
+                margin-right: 10px;
+        }
+    
+        .column1{
+                margin-right: 10px;
+            grid-template-columns: 3fr 1fr;
+            margin: 0.5rem 0;
+        }
+    
+        .column2{
+                margin-right: 10px;
+            grid-template-columns: 1fr 2fr;
+        }
+    
+        .box{
+            float: right;
+        }
+        
         .sociallinks {
             display: flex;
             justify-content: flex-end;
