@@ -250,7 +250,7 @@
             border: none;
             border-radius: .5rem;
             padding: .75rem;
-            font-size: 1.2 rem;
+            font-size: 1.2rem;
         }
         
         button:hover{
@@ -303,7 +303,7 @@
         .box{
             float: right;
         }
-        
+
         .sociallinks {
             display: flex;
             justify-content: flex-end;
