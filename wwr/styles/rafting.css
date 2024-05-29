@@ -42,6 +42,22 @@
             font-weight: 700;
             padding: 0.5rem;
         }
+
+        .box{
+            margin : 2rem;
+            border : 1px solid rgba(0,0,0,.1);
+            padding : 1rem;
+            background-color: #ddd;
+            color : #000;
+        }
+
+        aside{
+            position: relative;
+            width : 20em;
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+        
         .Logo {
             width: 100px;
         }
