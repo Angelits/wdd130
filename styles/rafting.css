@@ -102,38 +102,7 @@
             margin: 30px;
             margin-top: 3rem;
             margin-bottom: 1rem;
-        }
-
-        table{
-
-            margin-top: 20px;
-            margin: 20px;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-            margin-right: 20px;
-        }
-        
-        table th, table td {
-            padding: 8px;
-            border: 1px solid #ddd; /* Add borders to table cells */
-        }
-        
-        table th {
-            background-color: #a8efa9;
-            text-align: left;
-        }
-
-        .trip img {
-            display: block;
-            margin: 0 auto;
-            max-width: 100%; /* Ensure images don't exceed container width */
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            margin-bottom: 10px;
+            float: right;
         }
 
         .maps-container{
@@ -297,6 +266,44 @@
             font-size: 0.8em;
             color: #404E7C;
         }
+
+        .rimage{
+
+            margin:20px;
+            align-items: center;
+            float: inline-end;
+        }
+
+        table{
+
+            margin-top: 20px;
+            margin: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        
+        table th, table td {
+            padding: 8px;
+            border: 1px solid #ddd; /* Add borders to table cells */
+        }
+        
+        table th {
+            background-color: #a8efa9;
+            text-align: left;
+        }
+
+        .trip {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center; /* Center items vertically */
+            margin-bottom: 20px;
+            }
+        
     
         .form-item{
     
@@ -344,6 +351,41 @@
             text-decoration: none;
             border-radius: 5px;
         }
+
+        .trip {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        
+        .trip img {
+            width: 48%;
+            margin-bottom: 10px;
+        }
+
+        .trip-info {
+            width: 48%;
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Center text within each trip info */
+            display: flex; /* Use flexbox for vertical alignment */
+            flex-direction: column; /* Stack children vertically */
+            justify-content: center; /* Center content vertically */
+        }
+        
+        .trip-info img {
+            max-width: 100%; /* Ensure images don't exceed container width */
+            align-self: center; /* Center image horizontally within its container */
+        }
+        
+        .trip h2 {
+            width: 48%;
+        }
+    
 
         .sociallinks {
             display: flex;
